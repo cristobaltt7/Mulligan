@@ -1,6 +1,6 @@
-## mulligan.gg
+## Mulligan.gg
 
-mulligan.gg es una aplicación web de gestión de mazos para juegos de cartas coleccionables. En ella se podrá buscar información sobre las cartas del juego Magic the Gathering, crear lista de mazos y compartirlas con aquellos que quieran.
+Mulligan.gg es una aplicación web de gestión de mazos para juegos de cartas coleccionables. En ella se podrá buscar información sobre las cartas del juego Magic the Gathering, crear lista de mazos y compartirlas con aquellos que quieran.
 
 <img src="readme_img/mockup.png" alt="UI mockup">
 
