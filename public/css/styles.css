@@ -1,0 +1,574 @@
+/* Estilos generales */
+body {
+    background-color: #fbffe4;
+}
+
+/* Barra de navegacion */
+.navbar {
+    background-color: #589c8d;
+}
+
+.nav-item a {
+    color: aliceblue;
+}
+
+.navbar-logo {
+    height: 100px;
+    width: auto;
+}
+
+/* Barra de navegacion */
+.navbar {
+    background-color: #589c8d;
+}
+
+.navbar a {
+    color: #F9F7F7;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    padding: 10px;
+}
+
+.navbar .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.nav-item button {
+    font-size: 1.2rem;
+    background: transparent;
+    border: none !important;
+}
+
+/* Formularios */
+
+.input-error {
+    border: 2px solid red;
+}
+
+.form-control:disabled {
+    background-color: white;
+}
+
+.formulario-filtro {
+    height: fit-content;
+    margin: 0px auto !important;
+}
+
+/* Contador cartas */
+.carta .overlay {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 12px;
+    font-size: 1.5rem;
+}
+
+/* Seccion principal */
+.seccion-principal {
+    min-height: 750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegacion */
+.navbar {
+    background-color: #589c8d;
+}
+
+.nav-item a {
+    color: aliceblue;
+}
+
+.navbar-logo {
+    height: 100px;
+    width: auto;
+}
+
+/* Barra de navegacion */
+.navbar {
+    background-color: #589c8d;
+}
+
+.navbar a {
+    color: #F9F7F7;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    padding: 10px;
+}
+
+.navbar .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.nav-item button {
+    font-size: 1.2rem;
+    background: transparent;
+    border: none !important;
+}
+
+.navbar .dropdown-item {
+    color: black;
+}
+.navbar .dropdown-item:hover {
+    background-color: #A3D1C6;
+}
+
+/* Contador cartas */
+.carta .overlay {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 12px;
+    font-size: 1.5rem;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Fondos */
+.bg-primary {
+    background-color: #589c8d !important;
+}
+
+/* Formularios */
+.altura-minima {
+    height: fit-content;
+}
+
+.form-container {
+    /* width: 500px; */
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #589c8d;
+    outline: none;
+    box-shadow: 0 0 8px rgba(88, 156, 141, 0.3);
+}
+
+.input-error {
+    border: 2px solid red;
+}
+
+.form-control:disabled {
+    background-color: white;
+}
+
+/* Botones */
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #589c8d;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #478a7b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(88, 156, 141, 0.3);
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+}
+
+.btn-secondary {
+    background-color: #A3D1C6;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #589c8d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(108, 117, 125, 0.3);
+}
+
+.btn-cancel {
+    background-color: #6c757d;
+    color: white;
+    margin-left: 10px;
+}
+
+.btn-cancel:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(108, 117, 125, 0.3);
+}
+
+.btn-danger {
+    background-color: #e96060;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #d65353;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(108, 117, 125, 0.3);
+}
+
+.btn-search {
+    background-color: #31685c;
+    color: white;
+}
+
+.btn-search:hover {
+    background-color: #26584e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(88, 156, 141, 0.3);
+}
+
+.btn-editar-mazo {
+    margin: 15px 5px 5px;
+}
+
+
+/* Mensajes de error */
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #f5c6cb;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.alert-danger p {
+    margin: 0;
+}
+
+/* Lista de mazos */
+.list-group {
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icono-mana{
+    height: 15px;
+    width: auto;
+}
+
+.mazo-lista {
+    min-height: 380px;
+}
+
+/* Cartas del mazo */
+.hide {
+    display: none;
+}
+
+.enlace-carta:hover + .hide {
+    position: absolute;
+    display: block;
+}
+
+.imagen-carta {
+    height: 400px;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.card-item {
+    height: 200px;
+}
+
+.text-bg-primary {
+    background-color: #589c8d !important;
+    border: 1px solid black;
+}
+
+/* Margen superior para separar elementos */
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.lista-cartas {
+    padding: 0;
+}
+
+/* ancho de 500 px */
+.ancho-500 {
+    width: 500px;
+}
+
+/* ancho de 750 px */
+.ancho-750 {
+    width: 750px;
+}
+
+/* Efectos de sombra y transición para botones y tarjetas */
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-hover {
+    transition: box-shadow 0.3s ease;
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Tabla usuarios */
+.tabla-usuarios {
+    text-align: center;
+}
+
+.tabla-usuarios th, .tabla-usuarios td {
+    padding: 5px;
+}
+
+.tabla-usuarios th {
+    background-color: #589c8d;
+}
+
+/* Footer */
+footer {
+    background-color: #b4d8a9;
+}
+
+.footer-texto {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #26584e;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: #26584e;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: #26584e;
+    border: 2px solid white;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: white;
+}
+
+.alert.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+}
+
+/* Buscador */
+.imagenBuscador{
+    align-items: center;
+    text-align: center;
+}
+
+.imagenInicio{
+    height: auto;
+    width: 40%;
+}
+
+
+/* Responsive */
+
+/* Eliminar el icono al colapsar el menu */
+@media screen and (max-width:991px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+/* Media Queries para Ver Perfil */
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Menos padding en móviles */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Título más pequeño */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Subtítulo más pequeño */
+    }
+
+    .card {
+        width: 100%; /* Tarjetas ocupan todo el ancho */
+        margin-bottom: 10px; /* Menos espacio entre tarjetas */
+    }
+
+    .btn {
+        padding: 8px 16px; /* Botones más pequeños */
+        font-size: 14px;
+    }
+
+    .card-img-top {
+        height: auto; /* Imágenes se ajustan al ancho */
+    }
+
+    .card-title {
+        font-size: 1rem; /* Títulos de tarjetas más pequeños */
+    }
+
+    .card-text {
+        font-size: 0.9rem; /* Texto de tarjetas más pequeño */
+    }
+
+    .d-flex.justify-content-between {
+        flex-direction: column; /* Encabezado y botones en columna */
+        align-items: flex-start;
+    }
+
+    .d-flex.justify-content-between > div {
+        margin-top: 10px; /* Espacio entre título y botones */
+    }
+}
+
+/* Pantallas medianas (tablets) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        padding: 20px; /* Más padding en tablets */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Título un poco más grande */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Subtítulo un poco más grande */
+    }
+
+    .card {
+        width: 100%; /* Tarjetas ocupan todo el ancho */
+        margin-bottom: 15px; /* Más espacio entre tarjetas */
+    }
+
+    .btn {
+        padding: 10px 20px; /* Botones un poco más grandes */
+        font-size: 16px;
+    }
+
+    .card-img-top {
+        height: auto; /* Imágenes se ajustan al ancho */
+    }
+
+    .card-title {
+        font-size: 1.2rem; /* Títulos de tarjetas un poco más grandes */
+    }
+
+    .card-text {
+        font-size: 1rem; /* Texto de tarjetas un poco más grande */
+    }
+}
